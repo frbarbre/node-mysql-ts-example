@@ -14,7 +14,7 @@ A RESTful API built with Express.js, TypeScript, and MySQL, featuring users, pos
 1. Clone the repository and install dependencies:
 
 ```bash
-git clone [repository-url]
+git clone https://github.com/frbarbre/node-mysql-ts-example.git
 cd [project-directory]
 npm install
 ```
