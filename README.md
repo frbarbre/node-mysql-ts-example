@@ -5,7 +5,7 @@ A RESTful API built with Express.js, TypeScript, and MySQL, featuring users, pos
 ## Prerequisites
 
 - Docker and Docker Compose
-- Node.js (v18 or higher)
+- Node.js (v22 or higher)
 - npm
 - Git
 
@@ -14,8 +14,8 @@ A RESTful API built with Express.js, TypeScript, and MySQL, featuring users, pos
 1. Clone the repository and install dependencies:
 
 ```bash
-git clone [repository-url]
-cd [project-directory]
+git clone https://github.com/frbarbre/node-mysql-ts-example.git
+cd node-mysql-ts-example
 npm install
 ```
 
