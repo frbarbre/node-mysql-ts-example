@@ -5,7 +5,7 @@ A RESTful API built with Express.js, TypeScript, and MySQL, featuring users, pos
 ## Prerequisites
 
 - Docker and Docker Compose
-- Node.js (v18 or higher)
+- Node.js (v22 or higher)
 - npm
 - Git
 
