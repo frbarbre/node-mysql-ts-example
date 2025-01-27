@@ -1,0 +1,18 @@
+ meta {
+  name: Create Comment
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{app_url}}/comments
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "content": "This is a test comment",
+    "post_id": 1
+  }
+} 

@@ -1,0 +1,19 @@
+meta {
+  name: Update Post
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{app_url}}/posts/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Updated Post",
+    "content": "This is an updated post content",
+    "user_id": 1
+  }
+} 

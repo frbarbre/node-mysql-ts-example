@@ -2,7 +2,7 @@ services:
   node:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     ports:
       - "8000:8000"
     env_file:
@@ -12,6 +12,9 @@ services:
         condition: service_healthy # Wait until MySQL is healthy
     networks:
       - app_network
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
 
   mysql:
     image: mysql:8.0

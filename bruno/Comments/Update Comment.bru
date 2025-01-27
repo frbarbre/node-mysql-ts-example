@@ -1,0 +1,18 @@
+meta {
+  name: Update Comment
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{app_url}}/comments/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "content": "This is an updated comment",
+    "post_id": 1
+  }
+} 

@@ -11,14 +11,8 @@ COPY tsconfig.json ./
 # Install dependencies
 RUN npm install
 
-# Bundle app source
-COPY . .
-
-# Build TypeScript
-RUN npm run build
-
 # Expose the port your app runs on
 EXPOSE 8000
 
 # Start the application from the compiled JavaScript in dist
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "run", "dev" ]
