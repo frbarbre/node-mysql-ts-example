@@ -21,4 +21,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Start the application from the compiled JavaScript in dist
-CMD [ "node", "dist/server.js" ]
+CMD [ "node", "dist/server.js", "--env-file=.env" ]
